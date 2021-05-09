@@ -1,0 +1,185 @@
+/* Gobal */
+
+:root {
+  --main-blue-color: #00b1ff;
+  --soft-light-grey: #e9ecef;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: auto;
+}
+
+.BrainhubCarousel__arrows {
+  background-color: var(--main-blue-color) !important;
+  border-radius: 50%;
+}
+
+/* End of Globals */
+
+/* Basic Utilities */
+
+.text-main-blue {
+  color: var(--main-blue-color) !important;
+}
+.fw-700{
+  font-size: 700;
+}
+.bg-main-blue {
+  background-color: var(--main-blue-color) !important;
+}
+
+.bg-soft-grey {
+  background-color: var(--soft-light-grey) !important;
+}
+.white{
+  background-color: #fff;
+}
+.black{
+  color:#000;
+}
+
+.border-radius-30 {
+  border-radius: 30px !important;
+}
+
+.border-radius-left-30 {
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+}
+
+.clear-fix {
+  clear: both !important;
+}
+
+/* End of Basic Utilities */
+
+/* Navigation */
+
+.social .btn {
+  width: 39px;
+  height: 39px;
+}
+
+
+.navLinks{
+  font-weight: bold;
+  color:gray;
+  font-size: large;
+}
+.navLinks:hover{
+  color: var(--main-blue-color);
+  position: relative;
+  top: -3px;
+  transition: 0.5s;
+
+}
+.active{
+  color: var(--main-blue-color);
+}
+
+
+/* End of Navigation */
+
+/* About Page */
+
+.rightDiv{
+  border: 3px solid #00b1ff;
+  text-align: right;
+}
+
+.leftDiv{
+  border: 3px solid #00b1ff;
+  text-align: left;
+
+
+
+}
+/* Home Page */
+
+.banner .content {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 125px;
+}
+
+.banner .content .title {
+  min-width: 175px;
+}
+
+@media (min-width: 768px){
+  .banner .right-margin {
+    border-right: 3px solid var(--soft-light-grey);
+  }
+}
+
+/* Contact */
+.ruler{
+  border-top: 4px solid #d1d7de;
+  width:30%;
+}
+/* Blogs */
+/* End of Home Page */
+
+/* Resources */
+.hover-fill-lightgrey:hover {
+  background: var(--soft-light-grey);
+  opacity: 0.8;
+  transition: 1s;
+}
+
+.quiz-name:hover {
+  transform: scale(1.1);
+  transform-origin: 10%;
+  transition: 1s;
+}
+/* End of Resources */
+
+/* JoinUs Page */
+.middle{
+  text-align: center;
+}
+.join-subheading{
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 120%;
+}
+.no_border{
+  border:none;
+}
+
+/* End of JoinUs Page */
+
+/* Blog Section */
+.card-shadow {
+  width: 90%;
+  box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.imgCardJoin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
+
+/* End of Blog Section */
+
+/* Footer */
+.footer-line{
+  border-top: 4px solid #3c3c3c;
+  width:95%;
+}
+.ruler-footer{
+  border-top: 4px solid #00b1ff;
+  width:30%;
+}
+.footer-shadow {
+  box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  width:90%;
+}
+.footer-links:hover{
+  color:#000;
+  text-decoration: underline;
+
+}

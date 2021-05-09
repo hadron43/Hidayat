@@ -1,0 +1,53 @@
+{
+  "name": "hidayat",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://enactus-iiitdelhi.github.io/Hidayat/",
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.26",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "history": "^5.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.13.1",
+    "react-popper": "^2.2.3",
+    "react-redux": "^7.2.2",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
+    "react-scripts": "^4.0.1",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "PUBLIC_URL=/ react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/reactstrap": "^8.7.2",
+    "gh-pages": "^3.1.0"
+  }
+}
